@@ -1,0 +1,84 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color attach --machine --device-id=emulator-5554 lib\main.dart
+
+## exception
+
+ProcessException: ProcessException: Process exited abnormally:
+adb.exe: error: listener 'tcp:52403' not found
+  Command: C:/NVPACK/android-sdk-windows\platform-tools\adb.exe -s emulator-5554 forward --remove tcp:52403
+
+```
+#0      RunResult.throwException (package:flutter_tools/src/base/process.dart:140:5)
+#1      _DefaultProcessUtils.run (package:flutter_tools/src/base/process.dart:274:19)
+<asynchronous suspension>
+#2      _AndroidDevicePortForwarder.unforward (package:flutter_tools/src/android/android_device.dart:1103:24)
+<asynchronous suspension>
+#3      AttachCommand._attachToDevice (package:flutter_tools/src/commands/attach.dart:334:36)
+<asynchronous suspension>
+#4      AttachCommand.runCommand.<anonymous closure> (package:flutter_tools/src/commands/attach.dart:175:19)
+#5      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:157:29)
+<asynchronous suspension>
+#6      _rootRun (dart:async/zone.dart:1124:13)
+#7      _CustomZone.run (dart:async/zone.dart:1021:19)
+#8      _runZoned (dart:async/zone.dart:1516:10)
+#9      runZoned (dart:async/zone.dart:1463:12)
+#10     AppContext.run (package:flutter_tools/src/base/context.dart:156:18)
+<asynchronous suspension>
+#11     AttachCommand.runCommand (package:flutter_tools/src/commands/attach.dart:174:19)
+<asynchronous suspension>
+#12     FlutterCommand.verifyThenRunCommand (package:flutter_tools/src/runner/flutter_command.dart:519:18)
+#13     _asyncThenWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:71:64)
+#14     _rootRunUnary (dart:async/zone.dart:1132:38)
+#15     _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#16     _FutureListener.handleValue (dart:async/future_impl.dart:137:18)
+#17     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:678:45)
+#18     Future._propagateToListeners (dart:async/future_impl.dart:707:32)
+#19     Future._completeWithValue (dart:async/future_impl.dart:522:5)
+#20     Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:552:7)
+#21     _rootRun (dart:async/zone.dart:1124:13)
+#22     _CustomZone.run (dart:async/zone.dart:1021:19)
+#23     _CustomZone.runGuarded (dart:async/zone.dart:923:7)
+#24     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:963:23)
+#25     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#26     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#27     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:116:13)
+#28     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:173:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel master, v1.10.3-pre.56, on Microsoft Windows [versÃ£o 10.0.18362.356], locale pt-BR)
+    • Flutter version 1.10.3-pre.56 at C:\src\flutter
+    • Framework revision 9dd8c3a31c (4 days ago), 2019-09-16 15:44:41 -0400
+    • Engine revision 2c4ed36c60
+    • Dart version 2.6.0 (build 2.6.0-dev.1.0 7799f424f4)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at C:/NVPACK/android-sdk-windows
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-28, build-tools 28.0.3
+    • ANDROID_HOME = C:/NVPACK/android-sdk-windows
+    • Java binary at: C:\Program Files\Android\Android Studio1\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b03)
+    • All Android licenses accepted.
+
+[✓] Android Studio (version 3.5)
+    • Android Studio at C:\Program Files\Android\Android Studio1
+    • Flutter plugin version 39.0.3
+    • Dart plugin version 191.8423
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b03)
+
+[✓] VS Code (version 1.38.1)
+    • VS Code at C:\Users\mateu\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.4.1
+
+[✓] Connected device (2 available)
+    • SM J710MN                 • 52033a535915b33d • android-arm • Android 8.1.0 (API 27)
+    • Android SDK built for x86 • emulator-5554    • android-x86 • Android 9 (API 28) (emulator)
+
+• No issues found!
+```

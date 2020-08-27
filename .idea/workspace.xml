@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8eae8b30-e40c-4a9e-8c09-79b033ca5a76" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_28" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sinaliza_compras" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>is</find>
+    </findStrings>
+  </component>
+  <component name="ProjectId" id="1YgHwq98HuYMUqj3k3N5eRxMIJW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="Galaxy_S10_Plus_Black_API_28 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="com.origemstudio.sinaliza_compras" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\assets" />
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\lib\utils" />
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\android\app" />
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras" />
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.origemstudio.sinaliza_compras" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\assets" />
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\lib\screens" />
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\lib\tabs" />
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8eae8b30-e40c-4a9e-8c09-79b033ca5a76" name="Default Changelist" comment="" />
+      <created>1565096633721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565096633721</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="229" y="255" key="#PSD" timestamp="1596392829571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="229" y="255" key="#PSD/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1596392829571" />
+    <state x="568" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1597274853508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="568" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1597274853508" />
+    <state x="489" y="278" key="FileChooserDialogImpl" timestamp="1596458630670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="489" y="278" key="FileChooserDialogImpl/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1596458630670" />
+    <state width="1381" height="127" key="GridCell.Tab.0.bottom" timestamp="1598452291880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1598452291880" />
+    <state width="1381" height="127" key="GridCell.Tab.0.center" timestamp="1598452291880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="127" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1598452291880" />
+    <state width="1381" height="127" key="GridCell.Tab.0.left" timestamp="1598452291880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="127" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1598452291880" />
+    <state width="1381" height="127" key="GridCell.Tab.0.right" timestamp="1598452291880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="127" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1598452291880" />
+    <state x="223" y="162" key="SettingsEditor" timestamp="1597343675431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="223" y="162" key="SettingsEditor/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1597343675431" />
+    <state x="100" y="100" width="1244" height="840" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1596390956590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="100" width="1244" height="840" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1596390956590" />
+    <state x="-7" y="0" width="1439" height="1047" key="dock-window-1" timestamp="1592173401477">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-7" y="0" width="1439" height="1047" key="dock-window-1/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1592173401477" />
+    <state x="373" y="242" key="run.anything.popup" timestamp="1592174511255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="373" y="242" key="run.anything.popup/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1592174511255" />
+  </component>
+</project>
