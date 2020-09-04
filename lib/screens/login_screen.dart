@@ -89,7 +89,10 @@ class _LoginScreenState extends State<LoginScreen> {
                           keyboardType: TextInputType.emailAddress,
                           validator: (text) {
                              if (text.isEmpty || ! text.contains("@"))
-                              return "E-mail inválido!";
+                              {
+                                return "E-mail inválido!";
+                              }
+                             return null;
                           },
                         ),
                         SizedBox(
@@ -112,7 +115,10 @@ class _LoginScreenState extends State<LoginScreen> {
                           obscureText: true,
                           validator: (text) {
                             if (text.isEmpty || text.length < 6)
-                              return "Senha inválida!";
+                              {
+                                return "Senha inválida!";
+                              }
+                            return null;
                           },
                         ),
                         Align(

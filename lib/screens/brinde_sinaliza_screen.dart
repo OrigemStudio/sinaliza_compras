@@ -13,8 +13,6 @@ class _BrindeSinalizaScreenState extends State<BrindeSinalizaScreen> {
 
   _BrindeSinalizaScreenState({this.snapshot});
 
-  TabController _tabController;
-
   @override
   Widget build(BuildContext context) {
     ScreenUtil.getInstance()..init(context);
@@ -65,31 +63,5 @@ class _BrindeSinalizaScreenState extends State<BrindeSinalizaScreen> {
             }),
       ),
     ));
-  }
-}
-
-class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
-  _SliverAppBarDelegate(this._tabBar);
-
-  final TabBar _tabBar;
-
-  @override
-  double get minExtent => _tabBar.preferredSize.height;
-
-  @override
-  double get maxExtent => _tabBar.preferredSize.height;
-
-  @override
-  Widget build(
-      BuildContext context, double shrinkOffset, bool overlapsContent) {
-    return new Container(
-      color: Colors.purple,
-      child: _tabBar,
-    );
-  }
-
-  @override
-  bool shouldRebuild(_SliverAppBarDelegate oldDelegate) {
-    return false;
   }
 }

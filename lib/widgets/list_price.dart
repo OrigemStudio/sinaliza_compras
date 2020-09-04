@@ -21,7 +21,7 @@ class ListPrice extends StatelessWidget {
 
             double price = model.getProductsPrice();
 
-            double ship = model.getShipPrice();
+            //double ship = model.getShipPrice();
 
             return Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,

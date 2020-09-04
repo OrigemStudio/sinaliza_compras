@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sinaliza_compras/screens/brinde_sinaliza_screen.dart';
-import 'package:sinaliza_compras/screens/promo_screen.dart';
 
 class CardBrindeSinaliza extends StatelessWidget {
   @override
@@ -20,10 +19,10 @@ class CardBrindeSinaliza extends StatelessWidget {
                   top: MediaQuery.of(context).size.height * .06,
                   bottom: MediaQuery.of(context).size.height * .02),
               child: new Text(
-                'Descubra as melhores promoções, cria sua lista de desejos e ainda concorra a brindes do Sinaliza Compras!!!',
+                'Os melhores prêmios estão aqui no Sinaliza Compras!!!',
                 style: TextStyle(
                     color: Colors.white,
-                    fontSize: ScreenUtil.instance.setSp(35)),
+                    fontSize: ScreenUtil.instance.setSp(45)),
                 textAlign: TextAlign.center,
               ),
             ),

@@ -2,7 +2,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sinaliza_compras/widgets/horizontal_scroll_promo_assistencia.dart';
-import 'package:sinaliza_compras/widgets/horizontal_scroll_promo_lojas.dart';
 
 class TitleListPromoAssistencia extends StatelessWidget {
 

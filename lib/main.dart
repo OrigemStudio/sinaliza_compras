@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:scoped_model/scoped_model.dart';
 import 'package:sinaliza_compras/cards/slide_screen.dart';
 import 'package:sinaliza_compras/model/list_model.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:sinaliza_compras/screens/sinaliza_maps.dart';
 import 'model/user_model.dart';
 
 void main() => runApp(MyApp());

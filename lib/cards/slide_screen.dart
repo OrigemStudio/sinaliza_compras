@@ -5,7 +5,6 @@ import 'package:scoped_model/scoped_model.dart';
 import 'package:sinaliza_compras/cards/card_promo.dart';
 import 'package:sinaliza_compras/model/user_model.dart';
 import 'package:sinaliza_compras/screens/login_screen.dart';
-import 'package:sinaliza_compras/screens/sinaliza_maps.dart';
 import 'package:sinaliza_compras/screens/sobre_screen.dart';
 import '../CustomIcons.dart';
 import 'card_brinde_sinaliza.dart';
@@ -23,7 +22,6 @@ class _SlideScreenState extends State<SlideScreen> {
   var left = 0.0;
 
   PageController _pageController;
-  int _page = 0;
 
   @override
   void initState() {
@@ -140,7 +138,6 @@ class _SlideScreenState extends State<SlideScreen> {
                 controller: _pageController,
                 onPageChanged: (p) {
                   setState(() {
-                    _page = p;
                   });
                 },
                 children: <Widget>[
@@ -266,11 +263,7 @@ class _SlideScreenState extends State<SlideScreen> {
                           ]),
                       child: FlatButton(
                           onPressed: (){
-                            Navigator.push(context,
-                            MaterialPageRoute(
-                              builder: (context) => SinalizaMaps(),
-                            )
-                            );
+
                           },
                           padding: EdgeInsets.all(0.0),
                           child: Image.asset('assets/sinaliza_no_mapa.png')),

@@ -59,7 +59,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       ),
                     ),
                     validator: (text) {
-                      if (text.isEmpty) return "O campo (primeiro nome) está vazio!";
+                      if (text.isEmpty) {
+                        return "O campo (primeiro nome) está vazio!";
+                      }
+                      return null;
                     },
                   ),
                   SizedBox(
@@ -80,7 +83,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       ),
                     ),
                     validator: (text) {
-                      if (text.isEmpty) return "O campo (nome completo) está vazio!";
+                      if (text.isEmpty) {
+                        return "O campo (nome completo) está vazio!";
+                      }
+                      return null;
                     },
                   ),
                   SizedBox(
@@ -108,7 +114,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               ),
                             ),
                             validator: (text) {
-                              if (text.isEmpty) return "O campo (endereço) está vazio ";
+                              if (text.isEmpty) {
+                                return "O campo (endereço) está vazio ";
+                              }
+                              return null;
                             },
                           ),
                         ),
@@ -133,7 +142,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             ),
                             keyboardType: TextInputType.numberWithOptions(),
                             validator: (text) {
-                              if (text.isEmpty) return "O campo (número) está vazio ";
+                              if (text.isEmpty) {
+                                return "O campo (número) está vazio ";
+                              }
+                              return null;
                             },
                           ),
                         ),
@@ -159,7 +171,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     ),
                     keyboardType: TextInputType.emailAddress,
                     validator: (text) {
-                      if (text.isEmpty) return "O campo (bairro) está vazio ";
+                      if (text.isEmpty) {
+                        return "O campo (bairro) está vazio ";
+                      }
+                      return null;
                     },
                   ),
                   SizedBox(
@@ -187,7 +202,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               ),
                             ),
                             validator: (text) {
-                              if (text.isEmpty) return "O campo (cidade) está vazio ";
+                              if (text.isEmpty) {
+                                return "O campo (cidade) está vazio ";
+                              }
+                              return null;
                             },
                           ),
                         ),
@@ -211,7 +229,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               ),
                             ),
                             validator: (text) {
-                              if (text.isEmpty) return "O campo (Estado) está vazio ";
+                              if (text.isEmpty) {
+                                return "O campo (Estado) está vazio ";
+                              }
+                              return null;
                             },
                           ),
                         ),
@@ -238,7 +259,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     keyboardType: TextInputType.emailAddress,
                     validator: (text) {
                       if (text.isEmpty || !text.contains("@"))
-                        return "E-mail inválido!";
+                        {
+                          return "E-mail inválido!";
+                        }
+                      return null;
                     },
                   ),
                   SizedBox(
@@ -261,7 +285,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     obscureText: true,
                     validator: (text) {
                       if (text.isEmpty || text.length < 6)
-                        return "Sua senha precisa conter seis caracteres ou mais";
+                        {
+                          return "Sua senha precisa conter seis caracteres ou mais";
+                        }
+                      return null;
                     },
                   ),
                   SizedBox(
