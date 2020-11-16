@@ -6,6 +6,8 @@ import 'package:sinaliza_compras/cards/card_promo.dart';
 import 'package:sinaliza_compras/model/user_model.dart';
 import 'package:sinaliza_compras/screens/login_screen.dart';
 import 'package:sinaliza_compras/screens/sobre_screen.dart';
+import 'package:sinaliza_compras/screens/stories_screen.dart';
+import 'package:sinaliza_compras/screens/stories_screen2.dart';
 import '../CustomIcons.dart';
 import 'card_brinde_sinaliza.dart';
 import 'card_cadastro.dart';
@@ -263,10 +265,35 @@ class _SlideScreenState extends State<SlideScreen> {
                           ]),
                       child: FlatButton(
                           onPressed: (){
-
+                            Navigator.of(context).push(new PageRouteBuilder(
+                                pageBuilder: (BuildContext context,
+                                    Animation<double> animation,
+                                    Animation<double> secondaryAnimation) =>
+                                new StoriesScreen2(),
+                                transitionsBuilder: (
+                                    BuildContext context,
+                                    Animation<double> animation,
+                                    Animation<double> secondaryAnimation,
+                                    Widget child,
+                                    ) {
+                                  return new SlideTransition(
+                                    position: new Tween<Offset>(
+                                      begin: const Offset(-1.0, -1.0),
+                                      end: Offset.zero,
+                                    ).animate(animation),
+                                    child: new SlideTransition(
+                                      position: new Tween<Offset>(
+                                        begin: Offset.zero,
+                                        end: const Offset(0.0, 1.0),
+                                      ).animate(secondaryAnimation),
+                                      child: child,
+                                    ),
+                                  );
+                                },
+                                transitionDuration: const Duration(milliseconds: 200)));
                           },
                           padding: EdgeInsets.all(0.0),
-                          child: Image.asset('assets/sinaliza_no_mapa.png')),
+                          child: Image.asset('assets/sinaliza_stories.png')),
                     ),
                   ],
                 ),
