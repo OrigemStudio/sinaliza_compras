@@ -1,10 +1,14 @@
+import 'dart:ui';
+
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:scoped_model/scoped_model.dart';
 import 'package:sinaliza_compras/cards/card_promo.dart';
 import 'package:sinaliza_compras/model/user_model.dart';
+import 'package:sinaliza_compras/screens/choose_city.dart';
 import 'package:sinaliza_compras/screens/login_screen.dart';
+import 'package:sinaliza_compras/screens/my_count_screen.dart';
 import 'package:sinaliza_compras/screens/sobre_screen.dart';
 import 'package:sinaliza_compras/screens/stories_screen.dart';
 import 'package:sinaliza_compras/screens/stories_screen2.dart';
@@ -45,9 +49,45 @@ class _SlideScreenState extends State<SlideScreen> {
     return Scaffold(
       backgroundColor: Colors.purple,
       appBar: new AppBar(
-        elevation: 0.0,
-        title: Text('SINALIZA COMPRAS'),
+        elevation: 6.0,
+        backgroundColor: Colors.white.withOpacity(0.3),
+        title: Image.asset('assets/sinaliza_launch.png',
+          scale: 3.6,
+        ),
         centerTitle: true,
+        actions: [
+          Container(
+            width: MediaQuery.of(context).size.width *.40,
+            child: FlatButton(
+              onPressed: (){
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context)=>MyCountScreen())
+                );
+              },
+              child: Row(
+                children: [
+                  Text('Minha conta',
+                    style: TextStyle(
+                        fontSize: ScreenUtil.instance.setSp(35),
+                        color: Colors.white
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(
+                        left: MediaQuery.of(context).size.width *.02
+                    ),
+                    child: CircleAvatar(
+                      maxRadius: 10,
+                      backgroundColor: Colors.transparent,
+                      backgroundImage: AssetImage('assets/profile.png',
+                      ),
+                    ),
+                  )
+                ],
+              ),
+            ),
+          )
+        ],
         leading: FloatingActionButton(
             backgroundColor: Colors.transparent,
             elevation: 0.0,
@@ -58,15 +98,15 @@ class _SlideScreenState extends State<SlideScreen> {
             onPressed: () {
               Navigator.of(context).push(new PageRouteBuilder(
                   pageBuilder: (BuildContext context,
-                          Animation<double> animation,
-                          Animation<double> secondaryAnimation) =>
-                      new SobreScreen(),
+                      Animation<double> animation,
+                      Animation<double> secondaryAnimation) =>
+                  new SobreScreen(),
                   transitionsBuilder: (
-                    BuildContext context,
-                    Animation<double> animation,
-                    Animation<double> secondaryAnimation,
-                    Widget child,
-                  ) {
+                      BuildContext context,
+                      Animation<double> animation,
+                      Animation<double> secondaryAnimation,
+                      Widget child,
+                      ) {
                     return new SlideTransition(
                       position: new Tween<Offset>(
                         begin: const Offset(-1.0, -1.0),
@@ -98,7 +138,8 @@ class _SlideScreenState extends State<SlideScreen> {
               height: 55.0,
               onTap: (p) {
                 _pageController.animateToPage(p,
-                    duration: Duration(milliseconds: 250), curve: Curves.fastLinearToSlowEaseIn);
+                    duration: Duration(milliseconds: 250),
+                    curve: Curves.fastLinearToSlowEaseIn);
               },
               items: [
                 Icon(Icons.shopping_basket, size: 30, color: Colors.white),
@@ -139,8 +180,7 @@ class _SlideScreenState extends State<SlideScreen> {
               child: PageView(
                 controller: _pageController,
                 onPageChanged: (p) {
-                  setState(() {
-                  });
+                  setState(() {});
                 },
                 children: <Widget>[
                   PromoCard(),
@@ -157,12 +197,12 @@ class _SlideScreenState extends State<SlideScreen> {
                 Row(
                   children: <Widget>[
                     Container(
-                        height: MediaQuery.of(context).size.height * .08,
-                        width: MediaQuery.of(context).size.width * .62,
+                        height: MediaQuery.of(context).size.height * .23,
+                        width: MediaQuery.of(context).size.width * .88,
                         margin: EdgeInsets.only(
                           left: MediaQuery.of(context).size.width * .06,
                           right: MediaQuery.of(context).size.width * .01,
-                          top: MediaQuery.of(context).size.height * .65,
+                          top: MediaQuery.of(context).size.height * .55,
                           bottom: MediaQuery.of(context).size.height * .00,
                         ),
                         decoration: new BoxDecoration(
@@ -179,46 +219,55 @@ class _SlideScreenState extends State<SlideScreen> {
                             return Row(
                               children: <Widget>[
                                 Flexible(
-                                  flex: 1,
+                                  flex: 70,
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.start,
                                     children: <Widget>[
                                       Container(
                                         padding: EdgeInsets.only(
-                                          left: MediaQuery.of(context).size.width *
+                                          left: MediaQuery.of(context)
+                                              .size
+                                              .width *
                                               .06,
-                                          right: MediaQuery.of(context).size.width *
-                                              .21,
-                                          top: MediaQuery.of(context).size.height *
-                                              .015,
+                                          right: MediaQuery.of(context)
+                                              .size
+                                              .width *
+                                              .05,
+                                          top: MediaQuery.of(context)
+                                              .size
+                                              .height *
+                                              .030,
                                         ),
                                         child: Text(
                                           "Olá, ${!model.isLoggedIn() ? "" : model.userData["name"]}",
                                           style: TextStyle(
                                               fontSize:
-                                                  ScreenUtil.instance.setSp(35),
+                                              ScreenUtil.instance.setSp(35),
                                               fontWeight: FontWeight.bold),
                                         ),
                                       ),
                                       GestureDetector(
                                         child: Container(
                                           padding: EdgeInsets.only(
-                                            left:
-                                                MediaQuery.of(context).size.width *
-                                                    .06,
-                                            right:
-                                                MediaQuery.of(context).size.width *
-                                                    .06,
+                                            left: MediaQuery.of(context)
+                                                .size
+                                                .width *
+                                                .06,
+                                            right: MediaQuery.of(context)
+                                                .size
+                                                .width *
+                                                .06,
                                           ),
                                           child: Text(
                                             !model.isLoggedIn()
                                                 ? "Entre ou cadastre-se >"
                                                 : "Sair",
                                             style: TextStyle(
-                                                color:
-                                                    Theme.of(context).primaryColor,
-                                                fontSize:
-                                                    ScreenUtil.instance.setSp(35),
+                                                color: Theme.of(context)
+                                                    .primaryColor,
+                                                fontSize: ScreenUtil.instance
+                                                    .setSp(35),
                                                 fontWeight: FontWeight.bold),
                                           ),
                                         ),
@@ -231,70 +280,108 @@ class _SlideScreenState extends State<SlideScreen> {
                                           else
                                             model.signOut();
                                         },
+                                      ),
+                                      Container(
+                                          padding: EdgeInsets.only(
+                                            left: MediaQuery.of(context)
+                                                .size
+                                                .width *
+                                                .06,
+                                            right: MediaQuery.of(context)
+                                                .size
+                                                .width *
+                                                .05,
+                                            top: MediaQuery.of(context)
+                                                .size
+                                                .height *
+                                                .015,
+                                          ),
+                                          child: Text('Você está em:',
+                                            style: TextStyle(
+                                                fontSize:
+                                                ScreenUtil.instance.setSp(35),
+                                                fontWeight: FontWeight.bold),
+                                          )),
+                                      Container(
+                                        padding: EdgeInsets.only(
+                                          left: MediaQuery.of(context)
+                                              .size
+                                              .width *
+                                              .06,
+                                          right: MediaQuery.of(context)
+                                              .size
+                                              .width *
+                                              .05,
+                                        ),
+                                        child: GestureDetector(
+                                          onTap: (){},
+                                          child: Text('São José do Rio Pardo',
+                                            style: TextStyle(
+                                                color: Colors.purple,
+                                                fontSize:
+                                                ScreenUtil.instance.setSp(35),
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                        ),
+                                      ),
+                                      Center(
+                                        child: Container(
+                                          height: MediaQuery.of(context).size.height * .06,
+                                          width: MediaQuery.of(context).size.width * .35,
+                                          margin: EdgeInsets.only(
+                                              top: MediaQuery.of(context).size.height *.02
+                                          ),
+                                          child: FlatButton(
+                                            onPressed: (){
+                                              Navigator.push(
+                                                  context, MaterialPageRoute(
+                                                  builder: (context) => ChooseCity()
+                                              ));
+                                            },
+                                            color: Colors.purple,
+                                            shape: RoundedRectangleBorder(
+                                                borderRadius: new BorderRadius.circular(30.0)),
+                                            child: Text('Escolher região',
+                                              style: TextStyle(
+                                                  color: Colors.white,
+                                                  fontSize:
+                                                  ScreenUtil.instance.setSp(35),
+                                                  fontWeight: FontWeight.bold),
+                                            ),
+                                          ),
+                                        ),
                                       )
                                     ],
+                                  ),
+                                ),
+                                Container(
+                                  color: Colors.purple,
+                                  height: MediaQuery.of(context).size.height * .20,
+                                  width: MediaQuery.of(context).size.width * .003,
+                                ),
+                                Expanded(
+                                  flex: 60,
+                                  child: Container(
+                                    child: FlatButton(
+                                        onPressed: () {
+                                          Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                builder: (context) =>
+                                                    StoriesScreen2(),
+                                              ));
+                                        },
+                                        child: Image.asset(
+                                          'assets/sinaliza_stories.gif',
+                                          scale: 01.52,
+                                          fit: BoxFit.none,
+                                        )),
                                   ),
                                 ),
                               ],
                             );
                           },
                         )),
-                    Container(
-                      height: MediaQuery.of(context).size.height * .08,
-                      width: MediaQuery.of(context).size.width * .25,
-                      margin: EdgeInsets.only(
-                        left: MediaQuery.of(context).size.width * .01,
-                        right: MediaQuery.of(context).size.width * .01,
-                        top: MediaQuery.of(context).size.height * .65,
-                        bottom: MediaQuery.of(context).size.height * .00,
-                      ),
-                      padding: EdgeInsets.only(
-                        left: MediaQuery.of(context).size.width * .02,
-                        right: MediaQuery.of(context).size.width * .02,
-                        top: MediaQuery.of(context).size.height * .0,
-                        bottom: MediaQuery.of(context).size.height * .00,
-                      ),
-                      decoration: new BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: new BorderRadius.circular(20.0),
-                          boxShadow: [
-                            new BoxShadow(
-                                color: Colors.black.withAlpha(70),
-                                offset: const Offset(3.0, 10.0),
-                                blurRadius: 15.0)
-                          ]),
-                      child: FlatButton(
-                          onPressed: (){
-                            Navigator.of(context).push(new PageRouteBuilder(
-                                pageBuilder: (BuildContext context,
-                                    Animation<double> animation,
-                                    Animation<double> secondaryAnimation) =>
-                                new StoriesScreen2(),
-                                transitionsBuilder: (
-                                    BuildContext context,
-                                    Animation<double> animation,
-                                    Animation<double> secondaryAnimation,
-                                    Widget child,
-                                    ) {
-                                  return new SlideTransition(
-                                    position: new Tween<Offset>(
-                                      begin: const Offset(-1.0, -1.0),
-                                      end: Offset.zero,
-                                    ).animate(animation),
-                                    child: new SlideTransition(
-                                      position: new Tween<Offset>(
-                                        begin: Offset.zero,
-                                        end: const Offset(0.0, 1.0),
-                                      ).animate(secondaryAnimation),
-                                      child: child,
-                                    ),
-                                  );
-                                },
-                                transitionDuration: const Duration(milliseconds: 200)));
-                          },
-                          padding: EdgeInsets.all(0.0),
-                          child: Image.asset('assets/sinaliza_stories.png')),
-                    ),
                   ],
                 ),
               ],

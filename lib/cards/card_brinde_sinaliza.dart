@@ -12,11 +12,11 @@ class CardBrindeSinaliza extends StatelessWidget {
           children: <Widget>[
             Container(
               width: MediaQuery.of(context).size.width * .8,
-              height: MediaQuery.of(context).size.height * .14,
+              height: MediaQuery.of(context).size.height * .10,
               padding: EdgeInsets.only(
                   left: MediaQuery.of(context).size.width * .05,
                   right: MediaQuery.of(context).size.width * .05,
-                  top: MediaQuery.of(context).size.height * .06,
+                  top: MediaQuery.of(context).size.height * .02,
                   bottom: MediaQuery.of(context).size.height * .02),
               child: new Text(
                 'Os melhores prêmios estão aqui no Sinaliza Compras!!!',

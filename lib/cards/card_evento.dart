@@ -18,11 +18,11 @@ class _CardEventoState extends State<CardEvento> {
           children: <Widget>[
             Container(
               width: MediaQuery.of(context).size.width * .8,
-              height: MediaQuery.of(context).size.height * .14,
+              height: MediaQuery.of(context).size.height * .10,
               padding: EdgeInsets.only(
                   left: MediaQuery.of(context).size.width * .05,
                   right: MediaQuery.of(context).size.width * .05,
-                  top: MediaQuery.of(context).size.height * .06,
+                  top: MediaQuery.of(context).size.height * .02,
                   bottom: MediaQuery.of(context).size.height * .02),
               child: new Text(
                 'Eventos, shows e baladas, tudo em um único lugar para você!',
@@ -39,15 +39,15 @@ class _CardEventoState extends State<CardEvento> {
                     onTap: () {
                       Navigator.of(context).push(new PageRouteBuilder(
                           pageBuilder: (BuildContext context,
-                                  Animation<double> animation,
-                                  Animation<double> secondaryAnimation) =>
-                              new EventoScreen(),
+                              Animation<double> animation,
+                              Animation<double> secondaryAnimation) =>
+                          new EventoScreen(),
                           transitionsBuilder: (
-                            BuildContext context,
-                            Animation<double> animation,
-                            Animation<double> secondaryAnimation,
-                            Widget child,
-                          ) {
+                              BuildContext context,
+                              Animation<double> animation,
+                              Animation<double> secondaryAnimation,
+                              Widget child,
+                              ) {
                             return new SlideTransition(
                               position: new Tween<Offset>(
                                 begin: const Offset(-1.0, 1.0),
@@ -63,7 +63,7 @@ class _CardEventoState extends State<CardEvento> {
                             );
                           },
                           transitionDuration:
-                              const Duration(milliseconds: 200)));
+                          const Duration(milliseconds: 200)));
                     },
                     child: new Container(
                       height: MediaQuery.of(context).size.height *.43,
@@ -99,7 +99,7 @@ class _CardEventoState extends State<CardEvento> {
                                           color: Colors.grey.withAlpha(70),
                                           style: BorderStyle.solid,
                                           width:
-                                              ScreenUtil.instance.setWidth(1)),
+                                          ScreenUtil.instance.setWidth(1)),
                                     ),
                                     child: new Padding(
                                       padding: const EdgeInsets.all(0.0),
@@ -128,11 +128,11 @@ class _CardEventoState extends State<CardEvento> {
                                     .01),
                             child: new Center(
                                 child: new Text(
-                              'Eventos',
-                              style: TextStyle(
-                                  fontSize: ScreenUtil.instance.setSp(55),
-                                  color: Colors.white),
-                            )),
+                                  'Eventos',
+                                  style: TextStyle(
+                                      fontSize: ScreenUtil.instance.setSp(55),
+                                      color: Colors.white),
+                                )),
                           ),
                         ],
                       ),

@@ -13,11 +13,11 @@ class PromoCard extends StatelessWidget {
           children: <Widget>[
             Container(
               width: MediaQuery.of(context).size.width * .8,
-              height: MediaQuery.of(context).size.height * .14,
+              height: MediaQuery.of(context).size.height * .10,
               padding: EdgeInsets.only(
                   left: MediaQuery.of(context).size.width * .05,
                   right: MediaQuery.of(context).size.width * .05,
-                  top: MediaQuery.of(context).size.height * .06,
+                  top: MediaQuery.of(context).size.height * .02,
                   bottom: MediaQuery.of(context).size.height * .02),
               child: new Text(
                 'Descubra as melhores promoções e concorra a muitos prêmios',
@@ -71,7 +71,7 @@ class PromoCard extends StatelessWidget {
                                           color: Colors.grey.withAlpha(70),
                                           style: BorderStyle.solid,
                                           width:
-                                              ScreenUtil.instance.setWidth(1)),
+                                          ScreenUtil.instance.setWidth(1)),
                                     ),
                                     child: new Padding(
                                       padding: const EdgeInsets.all(0.0),
@@ -96,14 +96,14 @@ class PromoCard extends StatelessWidget {
                             padding: EdgeInsets.only(
                                 top: MediaQuery.of(context).size.height * .01,
                                 bottom:
-                                    MediaQuery.of(context).size.height * .01),
+                                MediaQuery.of(context).size.height * .01),
                             child: new Center(
                                 child: new Text(
-                              'Promoções Diárias',
-                              style: TextStyle(
-                                  fontSize: ScreenUtil.instance.setSp(55),
-                                  color: Colors.white),
-                            )),
+                                  'Promoções Diárias',
+                                  style: TextStyle(
+                                      fontSize: ScreenUtil.instance.setSp(55),
+                                      color: Colors.white),
+                                )),
                           ),
                         ],
                       ),

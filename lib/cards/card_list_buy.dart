@@ -18,11 +18,11 @@ class _CardListBuyState extends State<CardListBuy> {
           children: <Widget>[
             Container(
               width: MediaQuery.of(context).size.width * .8,
-              height: MediaQuery.of(context).size.height * .14,
+              height: MediaQuery.of(context).size.height * .10,
               padding: EdgeInsets.only(
                   left: MediaQuery.of(context).size.width * .05,
                   right: MediaQuery.of(context).size.width * .05,
-                  top: MediaQuery.of(context).size.height * .06,
+                  top: MediaQuery.of(context).size.height * .02,
                   bottom: MediaQuery.of(context).size.height * .02),
               child: new Text(
                 'Monte sua Lista de compras e organize seu orçamento mensal!',
@@ -39,15 +39,15 @@ class _CardListBuyState extends State<CardListBuy> {
                     onTap: () {
                       Navigator.of(context).push(new PageRouteBuilder(
                           pageBuilder: (BuildContext context,
-                                  Animation<double> animation,
-                                  Animation<double> secondaryAnimation) =>
-                              new ListScreen(),
+                              Animation<double> animation,
+                              Animation<double> secondaryAnimation) =>
+                          new ListScreen(),
                           transitionsBuilder: (
-                            BuildContext context,
-                            Animation<double> animation,
-                            Animation<double> secondaryAnimation,
-                            Widget child,
-                          ) {
+                              BuildContext context,
+                              Animation<double> animation,
+                              Animation<double> secondaryAnimation,
+                              Widget child,
+                              ) {
                             return new SlideTransition(
                               position: new Tween<Offset>(
                                 begin: const Offset(-1.0, 1.0),
@@ -63,7 +63,7 @@ class _CardListBuyState extends State<CardListBuy> {
                             );
                           },
                           transitionDuration:
-                              const Duration(milliseconds: 200)));
+                          const Duration(milliseconds: 200)));
                     },
                     child: new Container(
                       height: MediaQuery.of(context).size.height *.43,
@@ -99,7 +99,7 @@ class _CardListBuyState extends State<CardListBuy> {
                                           color: Colors.grey.withAlpha(70),
                                           style: BorderStyle.solid,
                                           width:
-                                              ScreenUtil.instance.setWidth(1)),
+                                          ScreenUtil.instance.setWidth(1)),
                                     ),
                                     child: new Padding(
                                       padding: const EdgeInsets.all(0.0),
@@ -128,11 +128,11 @@ class _CardListBuyState extends State<CardListBuy> {
                                     .01),
                             child: new Center(
                                 child: new Text(
-                              'Minhas Listas',
-                              style: TextStyle(
-                                  fontSize: ScreenUtil.instance.setSp(55),
-                                  color: Colors.white),
-                            )),
+                                  'Minhas Listas',
+                                  style: TextStyle(
+                                      fontSize: ScreenUtil.instance.setSp(55),
+                                      color: Colors.white),
+                                )),
                           ),
                         ],
                       ),

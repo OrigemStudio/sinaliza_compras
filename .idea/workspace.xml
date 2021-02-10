@@ -9,104 +9,306 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8eae8b30-e40c-4a9e-8c09-79b033ca5a76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/4.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.8-milestone-2/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.8-milestone-2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.8-milestone-2/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.gradle/configuration-cache/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sinaliza_stories.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/datas/stories_data.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/stories_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/stories_screen2.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/stories_teste.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/search_service.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/story_card.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/story_grid/story_grid_lojas.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/story_grid/story_grid_super.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/lu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sinaliza_stories.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/file-changes/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/md-rule/md-rule.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/130ziximrciirops6ngsxj37t/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/130ziximrciirops6ngsxj37t/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/130ziximrciirops6ngsxj37t/proj/_BuildScript_$_run_closure1$_closure3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/130ziximrciirops6ngsxj37t/proj/_BuildScript_$_run_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/21osrx509w7rl7g2z79uc8v6o/21osrx509w7rl7g2z79uc8v6o.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/21osrx509w7rl7g2z79uc8v6o/cp_init/_BuildScript_$_run_closure1$_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/21osrx509w7rl7g2z79uc8v6o/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/686tqrmdd7eoefbxdw07vai6r/686tqrmdd7eoefbxdw07vai6r.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/686tqrmdd7eoefbxdw07vai6r/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/7e21gp7wcj47k7pqu46okjdko/7e21gp7wcj47k7pqu46okjdko.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/7e21gp7wcj47k7pqu46okjdko/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/7e21gp7wcj47k7pqu46okjdko/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/83qaybxyx6s5j9xtcegylaogm/83qaybxyx6s5j9xtcegylaogm.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/83qaybxyx6s5j9xtcegylaogm/init/JetGradlePlugin$_apply_closure1$_closure2$_closure3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/83qaybxyx6s5j9xtcegylaogm/init/JetGradlePlugin$_apply_closure1$_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/83qaybxyx6s5j9xtcegylaogm/init/JetGradlePlugin$_apply_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/83qaybxyx6s5j9xtcegylaogm/init/RegistryProcessor$_extraModelBuilderIsRegistered_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/83qaybxyx6s5j9xtcegylaogm/init/RegistryProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/83qaybxyx6s5j9xtcegylaogm/init/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8s09hjpr2khmb7tlqmnnlpww/8s09hjpr2khmb7tlqmnnlpww.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8s09hjpr2khmb7tlqmnnlpww/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8s09hjpr2khmb7tlqmnnlpww/init/JetGradlePlugin$_apply_closure1$_closure2$_closure3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8s09hjpr2khmb7tlqmnnlpww/init/JetGradlePlugin$_apply_closure1$_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8s09hjpr2khmb7tlqmnnlpww/init/JetGradlePlugin$_apply_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8s09hjpr2khmb7tlqmnnlpww/init/JetGradlePlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8s09hjpr2khmb7tlqmnnlpww/init/RegistryProcessor$_extraModelBuilderIsRegistered_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8s09hjpr2khmb7tlqmnnlpww/init/RegistryProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8s09hjpr2khmb7tlqmnnlpww/init/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8s09hjpr2khmb7tlqmnnlpww/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8wl4ff25ovkth8sawgb0syd1k/8wl4ff25ovkth8sawgb0syd1k.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8wl4ff25ovkth8sawgb0syd1k/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8wl4ff25ovkth8sawgb0syd1k/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8wl4ff25ovkth8sawgb0syd1k/settings/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8xtn6rgyj81x51ilgjbnvxuvt/8xtn6rgyj81x51ilgjbnvxuvt.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8xtn6rgyj81x51ilgjbnvxuvt/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8xtn6rgyj81x51ilgjbnvxuvt/init/JetGradlePlugin$_apply_closure1$_closure2$_closure3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8xtn6rgyj81x51ilgjbnvxuvt/init/JetGradlePlugin$_apply_closure1$_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8xtn6rgyj81x51ilgjbnvxuvt/init/JetGradlePlugin$_apply_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8xtn6rgyj81x51ilgjbnvxuvt/init/JetGradlePlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8xtn6rgyj81x51ilgjbnvxuvt/init/RegistryProcessor$_extraModelBuilderIsRegistered_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8xtn6rgyj81x51ilgjbnvxuvt/init/RegistryProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8xtn6rgyj81x51ilgjbnvxuvt/init/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/8xtn6rgyj81x51ilgjbnvxuvt/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/946mu7zdjz6vbvw7b4bmb4kra/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/946mu7zdjz6vbvw7b4bmb4kra/settings/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/a6rh9jmnkq5bfp27fau6uyibv/a6rh9jmnkq5bfp27fau6uyibv.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/a6rh9jmnkq5bfp27fau6uyibv/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/a6rh9jmnkq5bfp27fau6uyibv/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/a6rh9jmnkq5bfp27fau6uyibv/proj/_BuildScript_$_run_closure1$_closure3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/a6rh9jmnkq5bfp27fau6uyibv/proj/_BuildScript_$_run_closure1$_closure4$_closure5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/a6rh9jmnkq5bfp27fau6uyibv/proj/_BuildScript_$_run_closure1$_closure4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/a6rh9jmnkq5bfp27fau6uyibv/proj/_BuildScript_$_run_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/a6rh9jmnkq5bfp27fau6uyibv/proj/_BuildScript_$_run_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/a6rh9jmnkq5bfp27fau6uyibv/proj/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/ciik31p41a1j7shg9dfgwju8g/ciik31p41a1j7shg9dfgwju8g.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/ciik31p41a1j7shg9dfgwju8g/init/_BuildScript_$_run_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/ciik31p41a1j7shg9dfgwju8g/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/csxxgjhwxvec8ll4zpib2af0x/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/csxxgjhwxvec8ll4zpib2af0x/csxxgjhwxvec8ll4zpib2af0x.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/csxxgjhwxvec8ll4zpib2af0x/init/JetGradlePlugin$_apply_closure1$_closure2$_closure3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/csxxgjhwxvec8ll4zpib2af0x/init/JetGradlePlugin$_apply_closure1$_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/csxxgjhwxvec8ll4zpib2af0x/init/JetGradlePlugin$_apply_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/csxxgjhwxvec8ll4zpib2af0x/init/JetGradlePlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/csxxgjhwxvec8ll4zpib2af0x/init/RegistryProcessor$_extraModelBuilderIsRegistered_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/csxxgjhwxvec8ll4zpib2af0x/init/RegistryProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/csxxgjhwxvec8ll4zpib2af0x/init/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/csxxgjhwxvec8ll4zpib2af0x/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/d4t4ejitzcrj0gj7nknmr8gtx/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/d4t4ejitzcrj0gj7nknmr8gtx/d4t4ejitzcrj0gj7nknmr8gtx.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/dy4dnnsdosdh79py67fnd6txj/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/dy4dnnsdosdh79py67fnd6txj/cp_init/_BuildScript_$_run_closure1$_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/dy4dnnsdosdh79py67fnd6txj/cp_init/_BuildScript_$_run_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/dy4dnnsdosdh79py67fnd6txj/cp_init/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/dy4dnnsdosdh79py67fnd6txj/dy4dnnsdosdh79py67fnd6txj.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/dy4dnnsdosdh79py67fnd6txj/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/eqpzok053sifzkoyp9dji7vuk/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/eqpzok053sifzkoyp9dji7vuk/eqpzok053sifzkoyp9dji7vuk.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/eqpzok053sifzkoyp9dji7vuk/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/hdl3mldbn2d6lb5shmfy44fq/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/hdl3mldbn2d6lb5shmfy44fq/cp_init/_BuildScript_$_run_closure1$_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/hdl3mldbn2d6lb5shmfy44fq/cp_init/_BuildScript_$_run_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/hdl3mldbn2d6lb5shmfy44fq/cp_init/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/hdl3mldbn2d6lb5shmfy44fq/hdl3mldbn2d6lb5shmfy44fq.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/hdl3mldbn2d6lb5shmfy44fq/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/sol4vcryein3j4i683q0lk51/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/sol4vcryein3j4i683q0lk51/cp_init/_BuildScript_$_run_closure1$_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/sol4vcryein3j4i683q0lk51/cp_init/_BuildScript_$_run_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/sol4vcryein3j4i683q0lk51/cp_init/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/sol4vcryein3j4i683q0lk51/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/6.7/scripts/sol4vcryein3j4i683q0lk51/sol4vcryein3j4i683q0lk51.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/10a542a07563f00a1a2185ac50b9eaf4/gradle-api-impldep-6.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/134bd68ed311bab82cf6b3577953ac40/cp_init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/277cf25b772b109430500e07d230ca0e/ion-java-1.5.2-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/2ba5e9be4bab31ffaa9d5457fd0d3b16/cp_proj.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/36a7bb55f939edef2c3dd441f12009e3/cp_init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/4ce379c8ee0c642ade07d4d5283eda62/cp_proj.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/50a85e7f8b959476f655858d4628bcda/cp_init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/56984ede4e6e052fb0b4eab97171e37f/cp_init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/5b2817d4d1bad4669b952129a111e380/cp_init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/62c21899394a65de59f3751dd2a24c45/gson-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/6bac83428ee0941b302adfaacc6dca67/android.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/77a70eb33c93203cb077c253e02a1acb/settings.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/81c37ebf6aaffd9752908b1d69fe80ac/cp_settings.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/81dee18dd5728c7aaf69d9d6dc8887b8/proj.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/877645437a3bf98355ff57e4f84c4325/groovy-all-2.4.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/a341be3837e30aba7b11a67c058d2c37/gradle-tooling-extension-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/b3b3303ffe2729fcbf86ce1b611bf3d3/cp_init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/b94716663f6366185923bda3d446b25f/cp_settings.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/cc25be1f4d1810ea54b11348f20c3035/external-system-rt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/fa95b6ee0cf4af286035fac0029e41d3/init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/o_1a09e2d7cfcee78dc9082ac6a3a24fa7/gradle-tooling-extension-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/o_497c99dc43ce8fece95d0e589f2459bd/gradle-appengine-builder-model-0.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/o_6b77ec927338a5d18736c56ad6ff4160/guava-28.2-jre.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/o_6ea1e8155310d879d66b539663a8ec15/gradle-api-6.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/o_77ada50e736f4d4012b262d89bc75bf9/sdk-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/o_993535111b7c75a3789884778a575722/gradle-toolingLoaderRt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/o_9b38677ff8a9ae45af28696c3745f6cd/kotlin-gradle-tooling.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/o_9d0016008f8c665cc5b4d7ed6f8da6ce/android.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/o_cbc9a76ada419a81c21de974bed95a8e/android-extensions-ide.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/jars-8/o_f20eb6a026134228a79b5668cbf4bdd5/annotations-java5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/journal-1/file-access.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/modules-2/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caches/transforms-2/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daemon/6.7/daemon-7472.out.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daemon/6.7/registry.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/cart_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/choose_city.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/my_count_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/native/jansi/1.18/windows64/jansi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/native/jansi/null/windows64/jansi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/bin/gradle.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/init.d/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/annotations-13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/ant-1.10.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/ant-launcher-1.10.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/asm-analysis-7.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/fastutil-8.3.0-min.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/file-events-linux-aarch64-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/file-events-linux-amd64-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/file-events-osx-amd64-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/file-events-windows-amd64-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/file-events-windows-amd64-min-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/file-events-windows-i386-min-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-base-services-groovy-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-bootstrap-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-build-cache-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-build-events-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-build-option-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-cli-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-core-api-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-file-collections-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-files-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-installation-beacon-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-jvm-services-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-launcher-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-snapshots-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/gradle-tooling-api-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/groovy-all-1.3-2.5.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/guava-27.1-android.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/jansi-1.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/jul-to-slf4j-1.7.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/kotlin-compiler-embeddable-1.3.72-patched-for-gradle-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/kotlin-daemon-embeddable-1.3.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/kotlin-reflect-1.3.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/kotlin-sam-with-receiver-compiler-plugin-1.3.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/kotlin-script-runtime-1.3.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/kotlin-scripting-compiler-embeddable-1.3.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/kotlin-stdlib-1.3.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/kotlin-stdlib-common-1.3.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/kotlinx-metadata-jvm-0.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/log4j-over-slf4j-1.7.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/native-platform-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/native-platform-linux-aarch64-ncurses5-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/native-platform-linux-amd64-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/native-platform-linux-amd64-ncurses6-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/native-platform-windows-amd64-min-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/native-platform-windows-i386-min-0.22-milestone-8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/objenesis-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/aether-connector-wagon-1.13.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/aether-spi-1.13.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/aws-java-sdk-kms-1.11.633.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/aws-java-sdk-s3-1.11.633.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/bcpkix-jdk15on-1.64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/bcprov-jdk15on-1.64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/commons-codec-1.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/google-api-client-1.25.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/google-api-services-storage-v1-rev136-1.25.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/google-oauth-client-1.25.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-antlr-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-build-cache-http-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-build-init-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-composite-builds-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-ear-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-ide-native-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-java-compiler-plugin-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-kotlin-dsl-tooling-builders-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-language-groovy-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-language-jvm-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-language-native-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-language-scala-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-platform-base-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-platform-jvm-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-platform-native-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-platform-play-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-plugin-use-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-plugins-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-reporting-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-resources-gcs-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-resources-s3-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-security-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-test-kit-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-testing-base-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-testing-junit-platform-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-tooling-api-builders-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-tooling-native-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/gradle-version-control-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/ion-java-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/jackson-core-2.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/jatl-0.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/jaxb-impl-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/jcommander-1.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/jsch-0.1.55.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/junit-platform-launcher-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/maven-compat-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/maven-core-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/maven-model-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/maven-model-builder-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/maven-repository-metadata-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/maven-settings-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/nekohtml-1.9.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/org.eclipse.jgit-5.7.0.202003110725-r.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/plexus-component-annotations-1.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/plexus-container-default-1.7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/simple-4.1.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/wagon-http-shared-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/wagon-provider-api-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/plugins/xercesImpl-2.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/trove4j-1.0.20181211.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/dists/gradle-6.7-bin/efvqh8uyq79v2n7rcncuhu9sv/gradle-6.7/lib/xml-apis-1.4.01.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6-rc-4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6-rc-4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6-rc-4/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_for_Android.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/origemstudio/sinaliza_compras/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/origemstudio/sinaliza_compras/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sinaliza_no_mapa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cards/card_brinde.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cards/card_brinde.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cards/card_brinde_sinaliza.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cards/card_brinde_sinaliza.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cards/card_cadastro.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cards/card_cadastro.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cards/card_empresas.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cards/card_empresas.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cards/card_evento.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cards/card_evento.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cards/card_list_buy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cards/card_list_buy.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cards/card_promo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cards/card_promo.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cards/slide_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cards/slide_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapplication/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/myapplication/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sinaliza_compras.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sinaliza_compras.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/stories_screen2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/stories_screen2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/search_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/search_service.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +318,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_XL_API_30]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Iphone_XS_API_30]" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -157,11 +359,12 @@
     <property name="DEBUGGABLE_DEVICE" value="Galaxy_S10_Plus_Black_API_28 [emulator-5554]" />
     <property name="DEBUGGABLE_PROCESS" value="com.origemstudio.sinaliza_compras" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../teste/testar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -170,22 +373,22 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\assets" />
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\lib\screens" />
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\lib\utils" />
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\android\app" />
+      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.origemstudio.sinaliza_compras" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\lib\widgets\story_grid" />
       <recent name="F:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\assets" />
       <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\lib\screens" />
       <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\lib\tabs" />
       <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\assets" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.origemstudio.sinaliza_compras" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\assets" />
-      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\lib\utils" />
-      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\android\app" />
-      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras" />
-      <recent name="V:\FLUTTER\PROJETOS\SINALIZA_COMPRAS\sinaliza_compras\lib" />
     </key>
   </component>
   <component name="RunManager">
@@ -241,6 +444,18 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="0.0.0.1.0 Correções de Warnigs do Dart Analysis" />
@@ -251,25 +466,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="229" y="255" key="#PSD/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605071283938" />
-    <state x="229" y="255" key="#PSD/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1598973777011" />
     <state x="308" y="204" key="#Updates" timestamp="1605062287138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="308" y="204" key="#Updates/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605062287138" />
-    <state x="568" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1597274853508">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="568" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1597274853508" />
     <state x="607" y="271" width="640" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1605062300391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="607" y="271" width="640" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605062300391" />
-    <state x="1973" y="281" width="624" height="545" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1366.0.1920.1080/0.21.1366.747@1366.0.1920.1080" timestamp="1600567479696" />
     <state x="444" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604883262326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="444" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1604883262326" />
-    <state x="444" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1599247434481" />
     <state x="100" y="100" width="1248" height="840" key="AVDManager" timestamp="1605554677699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -278,54 +486,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="270" key="AndroidProcessChooserDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605301068500" />
-    <state x="107" y="116" key="CommitChangelistDialog2" timestamp="1599249345182">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="107" y="116" key="CommitChangelistDialog2/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1599249345182" />
     <state x="1000" y="280" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605221583783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1000" y="280" key="FileChooserDialogImpl/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605221583783" />
-    <state x="1000" y="280" key="FileChooserDialogImpl/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1598973758940" />
-    <state x="2366" y="291" width="424" height="491" key="FileChooserDialogImpl/1366.0.1920.1080/0.21.1366.747@1366.0.1920.1080" timestamp="1600578621553" />
-    <state width="1378" height="146" key="GridCell.Tab.0.bottom" timestamp="1605548841909">
+    <state width="1388" height="272" key="GridCell.Tab.0.bottom" timestamp="1612963056639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@-1366.0.1366.728" timestamp="1603381482525" />
-    <state width="1378" height="146" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605548841909" />
-    <state width="1384" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1599954599011" />
-    <state width="1384" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598998606305" />
-    <state width="1378" height="146" key="GridCell.Tab.0.center" timestamp="1605548841909">
+    <state width="1388" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1612963056639" />
+    <state width="1388" height="272" key="GridCell.Tab.0.center" timestamp="1612963056639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@-1366.0.1366.728" timestamp="1603381482525" />
-    <state width="1378" height="146" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605548841909" />
-    <state width="1384" height="247" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1599954599011" />
-    <state width="1384" height="127" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598998606304" />
-    <state width="1378" height="146" key="GridCell.Tab.0.left" timestamp="1605548841909">
+    <state width="1388" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1612963056639" />
+    <state width="1388" height="272" key="GridCell.Tab.0.left" timestamp="1612963056639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@-1366.0.1366.728" timestamp="1603381482525" />
-    <state width="1378" height="146" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605548841909" />
-    <state width="1384" height="247" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1599954599011" />
-    <state width="1384" height="127" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598998606304" />
-    <state width="1378" height="146" key="GridCell.Tab.0.right" timestamp="1605548841909">
+    <state width="1388" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1612963056639" />
+    <state width="1388" height="272" key="GridCell.Tab.0.right" timestamp="1612963056639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@-1366.0.1366.728" timestamp="1603381482525" />
-    <state width="1378" height="146" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605548841909" />
-    <state width="1384" height="247" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1599954599011" />
-    <state width="1384" height="127" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598998606305" />
+    <state width="1388" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1612963056639" />
     <state x="210" y="64" key="SettingsEditor" timestamp="1605067987720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="210" y="64" key="SettingsEditor/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605067987720" />
-    <state x="210" y="64" key="SettingsEditor/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1599237913807" />
-    <state x="1411" y="123" width="1244" height="873" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600567565819">
-      <screen x="1366" y="0" width="1920" height="1080" />
-    </state>
-    <state x="100" y="100" width="1244" height="840" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1599949915789" />
-    <state x="1411" y="123" width="1244" height="873" key="com.android.tools.idea.avdmanager.AvdListDialog/1366.0.1920.1080/0.21.1366.747@1366.0.1920.1080" timestamp="1600567565819" />
     <state x="-1315" y="43" width="1155" height="571" key="dock-window-1" timestamp="1605323994980">
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
@@ -338,7 +522,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="373" y="242" key="run.anything.popup/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605018380357" />
-    <state x="373" y="242" key="run.anything.popup/0.0.1920.1040/-1366.121.1366.728@0.0.1920.1040" timestamp="1599246758183" />
     <state x="366" y="180" width="672" height="676" key="search.everywhere.popup" timestamp="1605301358898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
